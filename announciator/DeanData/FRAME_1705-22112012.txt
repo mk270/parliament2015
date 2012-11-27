@@ -1,0 +1,50 @@
+">Type",1,"Frame"
+">Bell",1,"Play"
+">Background Screen Color",3,128,0,0
+">Text Item",1,1
+">Justification",1,"Left"
+">Foreground Color",3,255,255,255
+">Background Color",3,128,0,0
+">Flash",1,"Off"
+">Font Name",1,"Arial"
+">Font Height",1,24
+">Font Style",2,"Normal","Off"
+">Font Style",2,"Bold","On"
+">Font Style",2,"Italic","Off"
+">Font Effects",2,"Strikeout","Off"
+">Font Effects",2,"Underline","Off"
+">Text",1,"L. TAYLOR OF HOLBEACH"
+">Box Top Left",2,384,22
+">Box Bottom Right",2,428,595
+">Text Item",1,2
+">Justification",1,"Centre"
+">Foreground Color",3,255,255,255
+">Background Color",3,128,0,0
+">Flash",1,"Off"
+">Font Name",1,"Arial"
+">Font Height",1,24
+">Font Style",2,"Normal","Off"
+">Font Style",2,"Bold","On"
+">Font Style",2,"Italic","On"
+">Font Effects",2,"Strikeout","Off"
+">Font Effects",2,"Underline","Off"
+">Text",1,"MOTION FOR APPROVAL"
+">Box Top Left",2,273,9
+">Box Bottom Right",2,324,639
+">Text Item",1,3
+">Justification",1,"Centre"
+">Foreground Color",3,255,255,255
+">Background Color",3,128,0,0
+">Flash",1,"Off"
+">Font Name",1,"Arial"
+">Font Height",1,26
+">Font Style",2,"Normal","Off"
+">Font Style",2,"Bold","On"
+">Font Style",2,"Italic","Off"
+">Font Effects",2,"Strikeout","Off"
+">Font Effects",2,"Underline","Off"
+">Text",1,"TERRORISM ACT 2000 (PROSCRIBED ORGANISATIONS) (AMENDMENT) (No.2)
+ORDER 2012"
+">Box Top Left",2,47,8
+">Box Bottom Right",2,239,641
+

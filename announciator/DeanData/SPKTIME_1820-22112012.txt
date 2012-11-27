@@ -1,0 +1,12 @@
+">Type",1,"Speaker Time"
+">Speaker Time",1,"18:17"
+">Font Name",1,"Arial"
+">Font Height",1,40
+">Font Style",2,"Normal","On"
+">Font Style",2,"Bold","Off"
+">Font Style",2,"Italic","Off"
+">Font Effects",2,"Strikeout","Off"
+">Font Effects",2,"Underline","Off"
+">Scroll Foreground Color",3,255,255,255
+">Scroll Background Color",3,128,0,0
+

@@ -1,0 +1,1304 @@
+{
+  "1874": [
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 242
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 350
+    }, 
+    {
+      "color": "green", 
+      "party": "Home Rule", 
+      "seats": 60
+    }
+  ], 
+  "1923": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 258
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 158
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 191
+    }, 
+    {
+      "color": "green", 
+      "party": "Nationalist", 
+      "seats": 3
+    }
+  ], 
+  "1924": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 412
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 151
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 40
+    }, 
+    {
+      "color": "blue", 
+      "party": "Constitutionalist", 
+      "seats": 7
+    }, 
+    {
+      "color": "black", 
+      "party": "Communist", 
+      "seats": 1
+    }
+  ], 
+  "1929": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 260
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 287
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 59
+    }
+  ], 
+  "1906": [
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 397
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 156
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 29
+    }, 
+    {
+      "color": "green", 
+      "party": "Irish Parliamentary", 
+      "seats": 82
+    }, 
+    {
+      "color": "blue", 
+      "party": "Independent Conservative", 
+      "seats": 3
+    }, 
+    {
+      "color": "red", 
+      "party": "Independent Labour", 
+      "seats": 2
+    }, 
+    {
+      "color": "green", 
+      "party": "Independent Nationalist", 
+      "seats": 1
+    }
+  ], 
+  "1895": [
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 411
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 177
+    }, 
+    {
+      "color": "green", 
+      "party": "Irish Parliamentary", 
+      "seats": 82
+    }
+  ], 
+  "1857": [
+    {
+      "color": "yellow", 
+      "party": "Whig", 
+      "seats": 377
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 264
+    }, 
+    {
+      "color": "white", 
+      "party": "Others", 
+      "seats": 13
+    }
+  ], 
+  "1900": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 402
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 183
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 2
+    }, 
+    {
+      "color": "green", 
+      "party": "Irish Parliamentary", 
+      "seats": 77
+    }, 
+    {
+      "color": "green", 
+      "party": "Independent Nationalist", 
+      "seats": 5
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Independent Liberal", 
+      "seats": 1
+    }
+  ], 
+  "1832": [
+    {
+      "color": "yellow", 
+      "party": "Whig", 
+      "seats": 370
+    }, 
+    {
+      "color": "blue", 
+      "party": "Tory", 
+      "seats": 235
+    }
+  ], 
+  "1833": [
+    {
+      "color": "yellow", 
+      "party": "Whig", 
+      "seats": 441
+    }, 
+    {
+      "color": "blue", 
+      "party": "Tory", 
+      "seats": 175
+    }, 
+    {
+      "color": "green", 
+      "party": "Irish Repeal", 
+      "seats": 42
+    }
+  ], 
+  "1830": [
+    {
+      "color": "blue", 
+      "party": "Tory", 
+      "seats": 250
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Whig", 
+      "seats": 196
+    }
+  ], 
+  "1831": [
+    {
+      "color": "yellow", 
+      "party": "Whig", 
+      "seats": 370
+    }, 
+    {
+      "color": "blue", 
+      "party": "Tory", 
+      "seats": 235
+    }
+  ], 
+  "1837": [
+    {
+      "color": "yellow", 
+      "party": "Whig", 
+      "seats": 344
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 314
+    }
+  ], 
+  "1835": [
+    {
+      "color": "yellow", 
+      "party": "Whig", 
+      "seats": 385
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 273
+    }
+  ], 
+  "1964": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 304
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 317
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 9
+    }
+  ], 
+  "1979": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 339
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 269
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 11
+    }, 
+    {
+      "color": "orange", 
+      "party": "SNP", 
+      "seats": 2
+    }, 
+    {
+      "color": "blue", 
+      "party": "UUP", 
+      "seats": 5
+    }, 
+    {
+      "color": "brown", 
+      "party": "Plaid Cymru", 
+      "seats": 2
+    }, 
+    {
+      "color": "green", 
+      "party": "SDLP", 
+      "seats": 1
+    }, 
+    {
+      "color": "purple", 
+      "party": "DUP", 
+      "seats": 3
+    }
+  ], 
+  "1852": [
+    {
+      "color": "yellow", 
+      "party": "Whig", 
+      "seats": 324
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 330
+    }
+  ], 
+  "1818": [
+    {
+      "color": "blue", 
+      "party": "Tory", 
+      "seats": 280
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Whig", 
+      "seats": 185
+    }
+  ], 
+  "1945": [
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 393
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 197
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 12
+    }, 
+    {
+      "color": "blue", 
+      "party": "Liberal National", 
+      "seats": 11
+    }
+  ], 
+  "1892": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 313
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 272
+    }, 
+    {
+      "color": "green", 
+      "party": "Irish Parliamentary", 
+      "seats": 81
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Independent Liberal", 
+      "seats": 1
+    }, 
+    {
+      "color": "red", 
+      "party": "Independent Labour", 
+      "seats": 3
+    }
+  ], 
+  "2010": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 306
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 258
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal Democrat", 
+      "seats": 57
+    }, 
+    {
+      "color": "orange", 
+      "party": "SNP", 
+      "seats": 6
+    }, 
+    {
+      "color": "white", 
+      "party": "Alliance", 
+      "seats": 1
+    }, 
+    {
+      "color": "brown", 
+      "party": "Plaid Cymru", 
+      "seats": 3
+    }, 
+    {
+      "color": "green", 
+      "party": "SDLP", 
+      "seats": 3
+    }, 
+    {
+      "color": "purple", 
+      "party": "DUP", 
+      "seats": 8
+    }, 
+    {
+      "color": "green", 
+      "party": "Sinn Fein", 
+      "seats": 5
+    }, 
+    {
+      "color": "green", 
+      "party": "Green", 
+      "seats": 1
+    }
+  ], 
+  "1886": [
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 192
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 393
+    }, 
+    {
+      "color": "green", 
+      "party": "Irish Parliamentary", 
+      "seats": 85
+    }
+  ], 
+  "1859": [
+    {
+      "color": "yellow", 
+      "party": "Whig", 
+      "seats": 356
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 298
+    }
+  ], 
+  "1955": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 345
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 277
+    }, 
+    {
+      "color": "green", 
+      "party": "Sinn Fein", 
+      "seats": 2
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 6
+    }
+  ], 
+  "1918": [
+    {
+      "color": "blue", 
+      "party": "National Conservative", 
+      "seats": 332
+    }, 
+    {
+      "color": "yellow", 
+      "party": "National Liberal", 
+      "seats": 127
+    }, 
+    {
+      "color": "blue", 
+      "party": "National Democratic", 
+      "seats": 9
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 57
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 36
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 47
+    }, 
+    {
+      "color": "green", 
+      "party": "Sinn Fein", 
+      "seats": 73
+    }, 
+    {
+      "color": "green", 
+      "party": "Irish Parliamentary", 
+      "seats": 7
+    }, 
+    {
+      "color": "red", 
+      "party": "Independent Labour", 
+      "seats": 2
+    }
+  ], 
+  "1931": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 470
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 52
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 32
+    }, 
+    {
+      "color": "blue", 
+      "party": "Liberal National", 
+      "seats": 35
+    }, 
+    {
+      "color": "red", 
+      "party": "National Labour", 
+      "seats": 13
+    }, 
+    {
+      "color": "blue", 
+      "party": "National", 
+      "seats": 4
+    }
+  ], 
+  "1910 January": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 272
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 274
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 40
+    }, 
+    {
+      "color": "green", 
+      "party": "Irish Parliamentary", 
+      "seats": 71
+    }, 
+    {
+      "color": "green", 
+      "party": "All for Ireland", 
+      "seats": 8
+    }, 
+    {
+      "color": "green", 
+      "party": "Independent Nationalist", 
+      "seats": 3
+    }, 
+    {
+      "color": "blue", 
+      "party": "Independent Conservative", 
+      "seats": 1
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Independent Liberal", 
+      "seats": 1
+    }
+  ], 
+  "1865": [
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 369
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 289
+    }
+  ], 
+  "1950": [
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 315
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 282
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 9
+    }, 
+    {
+      "color": "blue", 
+      "party": "Liberal National", 
+      "seats": 16
+    }
+  ], 
+  "1935": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 387
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 154
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 21
+    }, 
+    {
+      "color": "blue", 
+      "party": "Liberal National", 
+      "seats": 33
+    }, 
+    {
+      "color": "red", 
+      "party": "National Labour", 
+      "seats": 8
+    }, 
+    {
+      "color": "blue", 
+      "party": "National", 
+      "seats": 1
+    }
+  ], 
+  "1974 October": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 277
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 319
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 13
+    }, 
+    {
+      "color": "orange", 
+      "party": "SNP", 
+      "seats": 11
+    }, 
+    {
+      "color": "blue", 
+      "party": "UUP", 
+      "seats": 6
+    }, 
+    {
+      "color": "brown", 
+      "party": "Plaid Cymru", 
+      "seats": 3
+    }, 
+    {
+      "color": "green", 
+      "party": "SDLP", 
+      "seats": 1
+    }, 
+    {
+      "color": "purple", 
+      "party": "DUP", 
+      "seats": 1
+    }
+  ], 
+  "1868": [
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 387
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 271
+    }
+  ], 
+  "1885": [
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 319
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 247
+    }, 
+    {
+      "color": "green", 
+      "party": "Irish Parliamentary", 
+      "seats": 86
+    }
+  ], 
+  "1959": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 365
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 258
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 6
+    }
+  ], 
+  "1987": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 376
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 229
+    }, 
+    {
+      "color": "yellow", 
+      "party": "SDP-Liberal", 
+      "seats": 22
+    }, 
+    {
+      "color": "orange", 
+      "party": "SNP", 
+      "seats": 3
+    }, 
+    {
+      "color": "blue", 
+      "party": "UUP", 
+      "seats": 12
+    }, 
+    {
+      "color": "brown", 
+      "party": "Plaid Cymru", 
+      "seats": 3
+    }, 
+    {
+      "color": "green", 
+      "party": "SDLP", 
+      "seats": 3
+    }, 
+    {
+      "color": "purple", 
+      "party": "DUP", 
+      "seats": 3
+    }, 
+    {
+      "color": "green", 
+      "party": "Sinn Fein", 
+      "seats": 1
+    }
+  ], 
+  "1880": [
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 352
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 237
+    }, 
+    {
+      "color": "green", 
+      "party": "Home Rule", 
+      "seats": 63
+    }
+  ], 
+  "1807": [
+    {
+      "color": "blue", 
+      "party": "Tory", 
+      "seats": 216
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Whig", 
+      "seats": 213
+    }
+  ], 
+  "1983": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 397
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 209
+    }, 
+    {
+      "color": "yellow", 
+      "party": "SDP-Liberal", 
+      "seats": 23
+    }, 
+    {
+      "color": "orange", 
+      "party": "SNP", 
+      "seats": 2
+    }, 
+    {
+      "color": "blue", 
+      "party": "UUP", 
+      "seats": 11
+    }, 
+    {
+      "color": "brown", 
+      "party": "Plaid Cymru", 
+      "seats": 2
+    }, 
+    {
+      "color": "green", 
+      "party": "SDLP", 
+      "seats": 1
+    }, 
+    {
+      "color": "purple", 
+      "party": "DUP", 
+      "seats": 3
+    }, 
+    {
+      "color": "green", 
+      "party": "Sinn Fein", 
+      "seats": 1
+    }
+  ], 
+  "1992": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 336
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 271
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal Democrat", 
+      "seats": 20
+    }, 
+    {
+      "color": "orange", 
+      "party": "SNP", 
+      "seats": 3
+    }, 
+    {
+      "color": "blue", 
+      "party": "UUP", 
+      "seats": 9
+    }, 
+    {
+      "color": "brown", 
+      "party": "Plaid Cymru", 
+      "seats": 4
+    }, 
+    {
+      "color": "green", 
+      "party": "SDLP", 
+      "seats": 4
+    }, 
+    {
+      "color": "purple", 
+      "party": "DUP", 
+      "seats": 3
+    }
+  ], 
+  "1802": [
+    {
+      "color": "blue", 
+      "party": "Tory", 
+      "seats": 383
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Whig", 
+      "seats": 269
+    }, 
+    {
+      "color": "blue", 
+      "party": "Pittite", 
+      "seats": 6
+    }
+  ], 
+  "1997": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 165
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 418
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal Democrat", 
+      "seats": 46
+    }, 
+    {
+      "color": "orange", 
+      "party": "SNP", 
+      "seats": 6
+    }, 
+    {
+      "color": "blue", 
+      "party": "UUP", 
+      "seats": 10
+    }, 
+    {
+      "color": "brown", 
+      "party": "Plaid Cymru", 
+      "seats": 4
+    }, 
+    {
+      "color": "green", 
+      "party": "SDLP", 
+      "seats": 3
+    }, 
+    {
+      "color": "purple", 
+      "party": "DUP", 
+      "seats": 2
+    }
+  ], 
+  "1910 December": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 271
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 272
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 42
+    }, 
+    {
+      "color": "green", 
+      "party": "Irish Parliamentary", 
+      "seats": 74
+    }, 
+    {
+      "color": "green", 
+      "party": "All for Ireland", 
+      "seats": 8
+    }, 
+    {
+      "color": "green", 
+      "party": "Independent Nationalist", 
+      "seats": 2
+    }, 
+    {
+      "color": "blue", 
+      "party": "Independent Conservative", 
+      "seats": 1
+    }
+  ], 
+  "1841": [
+    {
+      "color": "yellow", 
+      "party": "Whig", 
+      "seats": 271
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 367
+    }, 
+    {
+      "color": "green", 
+      "party": "Irish Repeal", 
+      "seats": 20
+    }
+  ], 
+  "1847": [
+    {
+      "color": "yellow", 
+      "party": "Whig", 
+      "seats": 292
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 325
+    }, 
+    {
+      "color": "green", 
+      "party": "Irish Repeal", 
+      "seats": 36
+    }
+  ], 
+  "1922": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 344
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 142
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 62
+    }, 
+    {
+      "color": "blue", 
+      "party": "National Liberal", 
+      "seats": 53
+    }
+  ], 
+  "1970": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 330
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 288
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 6
+    }, 
+    {
+      "color": "orange", 
+      "party": "SNP", 
+      "seats": 1
+    }, 
+    {
+      "color": "blue", 
+      "party": "Protestant Unionist", 
+      "seats": 1
+    }, 
+    {
+      "color": "red", 
+      "party": "Republican Labour", 
+      "seats": 1
+    }, 
+    {
+      "color": "brown", 
+      "party": "Unity", 
+      "seats": 2
+    }
+  ], 
+  "2001": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 166
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 413
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal Democrat", 
+      "seats": 52
+    }, 
+    {
+      "color": "orange", 
+      "party": "SNP", 
+      "seats": 5
+    }, 
+    {
+      "color": "blue", 
+      "party": "UUP", 
+      "seats": 6
+    }, 
+    {
+      "color": "brown", 
+      "party": "Plaid Cymru", 
+      "seats": 4
+    }, 
+    {
+      "color": "green", 
+      "party": "SDLP", 
+      "seats": 3
+    }, 
+    {
+      "color": "purple", 
+      "party": "DUP", 
+      "seats": 5
+    }, 
+    {
+      "color": "green", 
+      "party": "Sinn Fein", 
+      "seats": 4
+    }
+  ], 
+  "2005": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 198
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 355
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal Democrat", 
+      "seats": 62
+    }, 
+    {
+      "color": "orange", 
+      "party": "SNP", 
+      "seats": 6
+    }, 
+    {
+      "color": "blue", 
+      "party": "UUP", 
+      "seats": 1
+    }, 
+    {
+      "color": "brown", 
+      "party": "Plaid Cymru", 
+      "seats": 3
+    }, 
+    {
+      "color": "green", 
+      "party": "SDLP", 
+      "seats": 3
+    }, 
+    {
+      "color": "purple", 
+      "party": "DUP", 
+      "seats": 9
+    }, 
+    {
+      "color": "green", 
+      "party": "Sinn Fein", 
+      "seats": 5
+    }, 
+    {
+      "color": "black", 
+      "party": "Respect", 
+      "seats": 1
+    }
+  ], 
+  "1951": [
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 295
+    }, 
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 302
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 6
+    }, 
+    {
+      "color": "blue", 
+      "party": "Liberal National", 
+      "seats": 19
+    }
+  ], 
+  "1974 February": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 297
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 301
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 14
+    }, 
+    {
+      "color": "orange", 
+      "party": "SNP", 
+      "seats": 7
+    }, 
+    {
+      "color": "blue", 
+      "party": "UUP", 
+      "seats": 7
+    }, 
+    {
+      "color": "brown", 
+      "party": "Plaid Cymru", 
+      "seats": 2
+    }, 
+    {
+      "color": "green", 
+      "party": "SDLP", 
+      "seats": 1
+    }
+  ], 
+  "1966": [
+    {
+      "color": "blue", 
+      "party": "Conservative", 
+      "seats": 253
+    }, 
+    {
+      "color": "red", 
+      "party": "Labour", 
+      "seats": 364
+    }, 
+    {
+      "color": "yellow", 
+      "party": "Liberal", 
+      "seats": 12
+    }
+  ]
+}

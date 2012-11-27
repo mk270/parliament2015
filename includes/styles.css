@@ -1,0 +1,96 @@
+body{
+	background-color: #ffffff;
+}
+
+#logo {
+	
+	margin-left: 45px;
+	margin-bottom: 10px;
+	
+	position: relative;
+	top: 45px;
+	
+	
+	
+	
+}
+
+
+.theinteractive {
+	display: none;
+	margin-left: 40px;
+	margin-top: 10px;
+	position: absolute;
+	
+	
+}
+
+#timeline {
+
+	position:relative;
+	margin-top: 40px;
+
+	
+
+}
+
+#social {
+	
+	display: inline;
+	
+	
+}
+.box {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   float: right;
+   display: block;
+   margin-right: 40px;
+   margin-top: 20px;
+   }
+   
+
+
+   .box:hover {
+      opacity: 0.8;
+      }
+      
+      
+.errorbox-good{
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}
+
+.ss-form-entry{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#form{
+	display: none;
+	
+	padding-bottom: 20px;
+}
+
+
+.upload_button{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+   opacity: 0.6;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+ 	cursor: pointer;
+   
+   }
+   
+      .upload_button:hover {
+      opacity: 1;
+      }

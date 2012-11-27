@@ -1,0 +1,20 @@
+">Type",1,"Frame"
+">Bell",1,"Play"
+">Background Screen Color",3,128,0,0
+">Text Item",1,1
+">Justification",1,"Centre"
+">Foreground Color",3,255,255,255
+">Background Color",3,128,0,0
+">Flash",1,"Off"
+">Font Name",1,"Arial"
+">Font Height",1,78
+">Font Style",2,"Normal","Off"
+">Font Style",2,"Bold","On"
+">Font Style",2,"Italic","Off"
+">Font Effects",2,"Strikeout","Off"
+">Font Effects",2,"Underline","Off"
+">Text",1,"HOUSE
+UP"
+">Box Top Left",2,96,19
+">Box Bottom Right",2,361,629
+
