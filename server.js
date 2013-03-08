@@ -31,7 +31,7 @@ app.get('/', routes.index)
 app.get('*', routes.index)
 
 //Start Server
-PORT = process.env.PORT || 3000
+var port = process.env.PORT || 3000
 app.listen(PORT, function() {
-    console.log('Ready to hack on port '+PORT)
+    console.log('Ready to hack on port '+port)
 })
