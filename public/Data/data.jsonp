@@ -1,0 +1,96 @@
+storyjs_jsonp_data =
+{
+    "timeline":
+    {
+        "headline":"Parliament 2015",
+        "type":"default",
+        "text":"<p>The history of Parliament since Magna Carta</p>",
+        "asset": {
+            "media":"http://www.bestourism.com/img/items/big/764/Houses-of-Parliament_Houses-of-Parliament-view_3027.jpg",
+            "credit":"Developed at Rewired State Parliament Hackathon",
+            "caption":""
+        },
+        "date": [
+            {
+                "startDate":"1214,6,15",
+                "endDate":"1215,6,16",
+                "headline":"Magna Carta",
+                "text":"The Magna Carta was originally imposed on King John by rebellious barons, and is the first acknowledgement of the rule of law: people were to be judged by the 'law of the land' (lex terrae), rather than arbitrary rules made by the King. <a href='http://www.legislation.gov.uk/1297' target='top'>The 1297 re-enactment of Magna Carta</a> is partly still in force in England.",
+                "tag":"This is Optional",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://www.archives.gov/exhibits/featured_documents/magna_carta/images/after-restoration-l.jpg",
+                    "thumbnail":"optional-32x32px.jpg",
+                    "credit":"Credit Name Goes Here",
+                    "caption":"Caption text goes here"
+                }
+            },
+            {
+                "startDate":"1642,1,10",
+                "endDate":"1649,1,30",
+                "headline":"Civil war",
+                "text":"The English Civil War (1642–1651) was a series of armed conflicts and political machinations between Parliamentarians (Roundheads) and Royalists (Cavaliers). The first (1642–46) and second (1648–49) civil wars pitted the supporters of King Charles I against the supporters of the Long Parliament, while the third war (1649–51) saw fighting between supporters of King Charles II and supporters of the Rump Parliament. The Civil War ended with the Parliamentary victory at the Battle of Worcester on 3 September 1651.",
+                "tag":"This is Optional",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"Need new image",
+                    "thumbnail":"optional-32x32px.jpg",
+                    "credit":"Credit Name Goes Here",
+                    "caption":"Caption text goes here"
+                }
+            },
+            {
+                "startDate":"1940,08,05",
+                "endDate":"1940,10,05",
+                "headline":"Narvik debate",
+                "text":"The Norway Debate, sometimes called the Narvik Debate, was a famous debate in the British House of Commons that took place in May 1940. It led to the formation of a widely-based National Government led by Winston Churchill which was to govern Britain until the end of World War II in Europe.",
+                "tag":"This is Optional",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://upload.wikimedia.org/wikipedia/commons/9/9c/Sir_Winston_S_Churchill.jpg",
+                    "thumbnail":"optional-32x32px.jpg",
+                    "credit":"Credit Name Goes Here",
+                    "caption":"Caption text goes here"
+                }
+            },
+            {
+                "startDate":"1605,11,05",
+                "endDate":"1605,05,11",
+                "headline":"Gunpowder Plot",
+                "text":"The Gunpowder Plot; Guy Fawkes and co-conspirators attempt to destroy Parliament, the King, Lords and Commons in a massive dynamite explosion",
+                "tag":"This is Optional",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://upload.wikimedia.org/wikipedia/commons/d/d0/Guy_Fawkes_by_Cruikshank.jpg",
+                    "thumbnail":"optional-32x32px.jpg",
+                    "credit":"(wikipedia)",
+                    "caption":"Caption text goes here"
+                }
+            },
+            {
+                "startDate":"1264,14,12",
+                "endDate":"1264,31,12",
+                "headline":"de Montfort's Parliament",
+                "text":"<p>Body text goes here, some HTML is OK</p>",
+                "tag":"This is Optional",
+                "classname":"optionaluniqueclassnamecanbeaddedhere",
+                "asset": {
+                    "media":"http://ec2-54-247-39-234.eu-west-1.compute.amazonaws.com/data/assets/portcullis.png",
+                    "thumbnail":"optional-32x32px.jpg",
+                    "credit":"(parliamentary clip art)",
+                    "caption":"Caption text goes here"
+                }
+            }
+        ],
+        "era": [
+            {
+                "startDate":"2013,12,10",
+                "endDate":"2014,12,11",
+                "headline":"We can insert an era here",
+                "text":"<p>Body text goes here, some HTML is OK</p>",
+                "tag":"This is Optional"
+            }
+
+        ]
+    }
+}
