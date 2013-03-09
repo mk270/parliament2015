@@ -1,10 +1,10 @@
 //Module dependencies
 var express = require('express'),
-    routes = require('./routes')
+    routes = require('./routes'),
     api = require('./routes/api')
+    dbxs = require('./dbxs')()
+    dbxs
 
-
-var dbxs = require('dbxs')
 
 var app = express()
 

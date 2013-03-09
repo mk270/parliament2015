@@ -1,5 +1,5 @@
 #!/usr/bin/node
-
+module.exports = dbxs =  function() {
 var http = require('http');
 var sqlite3 = require('sqlite3').verbose()
 
@@ -22,3 +22,4 @@ http.createServer(function (request, response) {
   lookupEvents(continueHttpStream);
 
 }).listen(8080);
+}
