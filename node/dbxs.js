@@ -6,7 +6,6 @@ var sqlite3 = require('sqlite3').verbose()
 var db = new sqlite3.Database('test.db');
 
 http.createServer(function (request, response) {
-  response.writeHead(200, {'Content-Type': 'text/plain'});
 
   var lookupEvents = function(callback) {
 	db.serialize(function() {
@@ -19,6 +18,7 @@ http.createServer(function (request, response) {
 	response.end();
   };
 
+  response.writeHead(200, {'Content-Type': 'text/plain'});
   lookupEvents(continueHttpStream);
 
 }).listen(8080);
