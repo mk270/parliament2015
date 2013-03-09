@@ -5,21 +5,20 @@ var sqlite3 = require('sqlite3').verbose()
 
 var db = new sqlite3.Database('test.db');
 
-function json_of_sql_rows() {
-  var rows = new Array();
-  var handle_row = function(err, row) {
-	rows.push(row);
-  };
-  db.serialize(function() {
-	db.each("SELECT * from event", handle_row);
-  });
-  return JSON.stringify(rows);
-};
-
 http.createServer(function (request, response) {
   response.writeHead(200, {'Content-Type': 'text/plain'});
 
-  var json_payload = json_of_sql_rows();
-  response.write(json_payload);
-  response.end();
+  var lookupEvents = function(callback) {
+	db.serialize(function() {
+	  db.all("SELECT * from event", callback);
+	});
+  };
+
+  var continueHttpStream = function(err, rows) {
+	response.write(JSON.stringify(rows));
+	response.end();
+  };
+
+  lookupEvents(continueHttpStream);
+
 }).listen(8080);
