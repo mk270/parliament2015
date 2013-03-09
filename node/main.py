@@ -22,5 +22,4 @@ def event_data():
     return json.dumps(data, indent=2)
 
 if __name__ == "__main__":
-    print event_data()
     app.run()
