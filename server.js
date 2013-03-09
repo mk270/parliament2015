@@ -3,6 +3,9 @@ var express = require('express'),
     routes = require('./routes')
     api = require('./routes/api')
 
+
+var dbxs = require('dbxs')
+
 var app = express()
 
 //Configuration

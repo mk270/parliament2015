@@ -3,7 +3,7 @@
 var http = require('http');
 var sqlite3 = require('sqlite3').verbose()
 
-var db = new sqlite3.Database('test.db');
+var db = new sqlite3.Database('node/test.db');
 
 http.createServer(function (request, response) {
 
