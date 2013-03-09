@@ -1,8 +1,8 @@
-##Launch the app
+#Launch the app
 
-#Install the dependencies
-'''html
+##Install the dependencies
+```html
 
   npm install
 
-'''
+```
