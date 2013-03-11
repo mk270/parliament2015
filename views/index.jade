@@ -20,7 +20,10 @@ block body
         img(src="img/corner_left.png", width="200px")
 
 
-    div.my-timeline
+
+
+    timeline
+        div.my-timeline
         div#my-timeline
 
     div.upload_button
@@ -39,13 +42,5 @@ block body
     script(src="js/directives.js")
 
     script(type="text/javascript")
-        $(document).ready(function() {
-                createStoryJS({
-                    type:   'timeline',
-                    width:  '100%',
-                    height: '640',
-                    source: 'data/data.jsonp',
-                    embed_id:   'my-timeline'
-                })
-        })
+
 
