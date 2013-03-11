@@ -31,8 +31,9 @@ app.get('/', routes.index)
 app.get('/events', function(req, res) {
     //Get events from database
     dbxs.lookupEvents(function(err, rows) {
-        events = []
+        var events = []
         //Change the format of the json object to match the timeline requirements
+        //Problem with the date format
         rows.forEach(function(row) {
             event = {
                 startDate: "2015,12,5",
@@ -68,6 +69,20 @@ app.get('/events', function(req, res) {
 })
 
 //Api
+//Get body content of POST request for new event
+app.post('/newevent', function(req, res) {
+    var data = req.body
+    var event = {
+        $start_date: data.start_date,
+        $end_date: data.end_date,
+        $headline: data.headline,
+        $event_body: data.event_body,
+        $media: data.media,
+        $media_credit: data.credit
+
+    }
+    dbxs.addEvent(event)
+})
 
 //Redirects all others to index (HTML5 history)
 app.get('*', routes.index)

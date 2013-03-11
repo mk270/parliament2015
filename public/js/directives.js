@@ -12,6 +12,8 @@ app.directive('slidetitle', function() {
     }
 })
 
+
+
 app.directive('timeline', function($http) {
     var controller = function($scope) {
         $http.get('/events').success(function(data) {

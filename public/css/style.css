@@ -1,3 +1,20 @@
+
+
 .my-timeline{
     margin-top: 100px
+}
+
+.form{
+    background-color: #ffffff;
+    width: 550px;
+    margin: 0px auto 0px auto;
+    height: 600px;
+    margin-bottom: 80px;
+}
+.form_top {
+    margin-top: -10px;
+}
+
+.form_bottom{
+    margin-bottom: -20px;
 }

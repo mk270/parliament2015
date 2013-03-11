@@ -12,6 +12,12 @@ this.lookupEvents = function(callback) {
         db.all("SELECT * from event", callback);
     });
 };
+this.addEvent = function(event) {
+    db.serialize(function() {
+            db.run("INSERT INTO event(start_date, end_date, headline, event_body, media, media_credit) VALUES ($start_date, $end_date, $headline, $event_body, $media, $media_credit)", event)
+    })
+    console.log("added")
+}
 
 }
 
