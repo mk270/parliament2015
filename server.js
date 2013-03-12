@@ -2,8 +2,8 @@
 var express = require('express'),
     routes = require('./routes'),
     api = require('./routes/api')
-    dbxsCode = require('./dbxs')
-    dbxs = new dbxsCode()
+    dbpgCode = require('./dbpg')
+    dbpg = new dbpgCode()
 
 
 var app = express()
@@ -29,28 +29,9 @@ app.configure('production', function() {})
 app.get('/', routes.index)
 
 app.get('/events', function(req, res) {
+
     //Get events from database
-    dbxs.lookupEvents(function(err, rows) {
-        var events = []
-        //Change the format of the json object to match the timeline requirements
-        //Problem with the date format
-        rows.forEach(function(row) {
-            event = {
-                startDate: "2015,12,5",
-                endDate: "2015,12,5",
-                headline: row.headline,
-                text: row.event_body,
-                tag: row.tag,
-                classname: '',
-                asset: {
-                    media: row.media,
-                    thumbnail: '',
-                    credit: row.media_credit,
-                    caption: ''
-                }
-            }
-            events.push(event)
-        })
+    dbpg.lookupEvents(function(result) {
         var timelineJSON = {
             timeline: {
                 headline: "Parliament 2015",
@@ -61,27 +42,27 @@ app.get('/events', function(req, res) {
                     credit: "Developed at Rewired State Parliament Hackathon",
                     caption: ""
                 },
-                date: events
+                date: result.rows
             }
         }
         res.send(timelineJSON)
-    });
+    })
 })
 
 //Api
 //Get body content of POST request for new event
 app.post('/newevent', function(req, res) {
     var data = req.body
-    var event = {
-        $start_date: data.start_date,
-        $end_date: data.end_date,
-        $headline: data.headline,
-        $event_body: data.event_body,
-        $media: data.media,
-        $media_credit: data.credit
+    var event = [
+        "2012-2-2",
+        "2012-2-2",
+        data.headline,
+        data.event_body,
+        data.media,
+        data.credit
 
-    }
-    dbxs.addEvent(event)
+    ]
+    dbpg.addEvent(event)
 })
 
 //Redirects all others to index (HTML5 history)
