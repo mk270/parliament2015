@@ -31,7 +31,7 @@ app.directive('timeline', function($http) {
                 source: scope.events,
                 embed_id:   'my-timeline'
             })
-        }, 10)
+        }, 500)
     }
 
     return {

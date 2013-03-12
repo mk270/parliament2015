@@ -8,7 +8,7 @@
       "npm": "1.2.10"
   },
   "dependencies": {
-    "express": "",
+    "express": "latest",
     "jade": "",
     "http": "",
     "pg": ""
