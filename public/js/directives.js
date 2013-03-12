@@ -29,7 +29,8 @@ app.directive('timeline', function($http) {
                 width:  '100%',
                 height: '640',
                 source: scope.events,
-                embed_id:   'my-timeline'
+                embed_id:   'my-timeline',
+                font: 'Arvo-PTSans'
             })
         }, 500)
     }

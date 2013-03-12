@@ -24,7 +24,7 @@ block body
 
         timeline
             div.my-timeline
-            div#my-timeline
+                div#my-timeline
 
         div.upload_button(addEvent)
             a(href="#")
@@ -33,25 +33,37 @@ block body
         div.form(ng-controller="eventList")
             img.form_top(src="img/form_top.png", width="550px")
             h1 Add Event to Timeline
-            label Start Date
-            input(type="date", ng-model="newEvent.start_date")
-            br
-            label End Date
-            input(type="date", ng-model="newEvent.end_date")
-            br
-            label Headline
-            input(type="text", ng-model="newEvent.headline")
-            br
-            label Text
-            input(type="text", ng-model="newEvent.text")
-            br
-            label Image
-            input(type="text", ng-model="newEvent.media", placeholder="Link to image")
-            br
-            label Credit
-            input(type="text", ng-model="newEvent.credit")
-            br
-            button(type="submit", value="Add to timeline", ng-click="getEventInfo()") Add to timeline
+            section.field
+                label Start Date
+                br
+                input(type="date", ng-model="newEvent.start_date")
+            section.field
+                label End Date
+                br
+                input(type="date", ng-model="newEvent.end_date")
+
+            section.field
+                label Headline
+                br
+                input(type="text", ng-model="newEvent.headline")
+
+            section.field
+                label Text
+                br
+                input(type="text", ng-model="newEvent.text")
+
+            section.field
+                label Image
+                br
+                input(type="text", ng-model="newEvent.media", placeholder="Link to image")
+
+            section.field
+                label Credit
+                br
+                input(type="text", ng-model="newEvent.credit")
+
+            section.field
+                button(type="submit", value="Add to timeline", ng-click="getEventInfo()") Add to timeline
             img.form_bottom(src="img/form_bottom.png", width="550px")
 
     //Load angular
