@@ -1,7 +1,7 @@
 module.exports = dbpg = function() {
 
     var pg = require('pg').native,
-        connectionString = process.env.DATABASE_URL || 'postgres://localhost:5432/test';
+        connectionString = process.env.HEROKU_POSTGRESQL_RED_URL || 'postgres://localhost:5432/test';
 
 
     client = new pg.Client(connectionString)
