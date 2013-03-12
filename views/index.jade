@@ -63,8 +63,16 @@ block body
                 input(type="text", ng-model="newEvent.credit")
 
             section.field
-                button(type="submit", value="Add to timeline", ng-click="getEventInfo()") Add to timeline
+                a(href="javascript:timedRefresh(1000)")
+                    button(type="submit", value="Add to timeline", ng-click="getEventInfo()") Add to timeline
             img.form_bottom(src="img/form_bottom.png", width="550px")
+
+
+            script
+                function timedRefresh(timeoutPeriod) {
+                    setTimeout("location.reload(true);",timeoutPeriod);
+                }
+
 
     //Load angular
 

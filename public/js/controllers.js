@@ -1,7 +1,7 @@
 'use strict'
 
 
-function eventList($scope, $http) {
+function eventList($scope, $http, $route) {
 
     $scope.getEventInfo = function() {
 
@@ -17,6 +17,8 @@ function eventList($scope, $http) {
             $http.post('/newevent', $scope.newEvent).success(function(data) {
 
             })
+
+
     }
     $scope.test = function () {
         console.log("working")
