@@ -10,8 +10,8 @@
   "dependencies": {
     "express": "",
     "jade": "",
-    "sqlite3": "",
-    "http": ""
+    "http": "",
+    "pg": ""
   },
   "devDependencies": {},
   "scripts": {
