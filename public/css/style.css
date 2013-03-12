@@ -46,3 +46,8 @@ input{
 .form_bottom{
     margin-bottom: -17px;
 }
+
+h1{
+    width: 350px;
+    margin: 0px auto 40px auto;
+}
