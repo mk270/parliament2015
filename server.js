@@ -45,6 +45,7 @@ app.get('/events', function(req, res) {
                 date: result.rows
             }
         }
+
         res.send(timelineJSON)
     })
 })
@@ -54,14 +55,15 @@ app.get('/events', function(req, res) {
 app.post('/newevent', function(req, res) {
     var data = req.body
     var event = [
-        "2012-2-2",
-        "2012-2-2",
+        data.start_date,
+        data.end_date,
         data.headline,
         data.event_body,
         data.media,
         data.credit
 
     ]
+    console.log(event)
     dbpg.addEvent(event)
 })
 

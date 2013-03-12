@@ -11,12 +11,25 @@ module.exports = dbpg = function() {
 
     this.lookupEvents = function (callback) {
 
+
+
         var query = client.query("SELECT * FROM event");
         //Get events from db
         query.on('row', function(row, result) {
+            var changeDateFormat = function(oldDate) {
+
+                var year = oldDate.getUTCFullYear()
+                var month = oldDate.getUTCMonth() + 1
+                var day = oldDate.getDate()
+                var newDate = year+","+month+","+day
+                return newDate
+
+            }
+            var newStartDate = changeDateFormat(row.start_date)
+            var newEndDate = changeDateFormat(row.end_date)
             row = {
-                startDate: "2015,12,5",
-                endDate: "2015,12,5",
+                startDate: newStartDate,
+                endDate: newEndDate,
                 headline: row.headline,
                 text: row.event_body,
                 tag: row.tag,
@@ -29,7 +42,7 @@ module.exports = dbpg = function() {
                 }
             }
             result.addRow(row)
-
+            console.log(row)
 
         })
         query.on('end', callback)

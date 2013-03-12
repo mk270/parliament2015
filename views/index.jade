@@ -34,24 +34,30 @@ block body
             img.form_top(src="img/form_top.png", width="550px")
             h1 Add Event to Timeline
             label Start Date
-            input(type="text", ng-model="newEvent.start_date")
+            input(type="date", ng-model="newEvent.start_date")
+            br
             label End Date
-            input(type="text", ng-model="newEvent.end_date")
+            input(type="date", ng-model="newEvent.end_date")
+            br
             label Headline
             input(type="text", ng-model="newEvent.headline")
+            br
             label Text
             input(type="text", ng-model="newEvent.text")
+            br
             label Image
-            input(type="text", ng-model="newEvent.media")
+            input(type="text", ng-model="newEvent.media", placeholder="Link to image")
+            br
             label Credit
             input(type="text", ng-model="newEvent.credit")
-            button(type="submit", value="Add to timeline", ng-click="getEventInfo()")
+            br
+            button(type="submit", value="Add to timeline", ng-click="getEventInfo()") Add to timeline
             img.form_bottom(src="img/form_bottom.png", width="550px")
 
     //Load angular
-    link(rel="stylesheet", href='http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css')
+
     script(src="http://code.jquery.com/jquery-1.8.2.min.js")
-    script(src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js")
+
     script(src="js/storyjs-embed.js")
     script(src='js/lib/angular/angular.js')
     script(src="/js/app.js")
