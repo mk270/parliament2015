@@ -1,0 +1,74 @@
+#!/usr/bin/env python
+
+import csv
+import sys
+import psycopg2
+import time
+import datetime
+
+def convert_date(s):
+   print s
+   assert '/' in s
+
+   fields = map(int, s.split('/'))
+   if fields[2] > 1000:
+      fields.reverse()
+
+   if fields[1] > 12:
+      fields = [fields[0], fields[2], fields[1]]
+      
+   print fields
+   return "/".join([
+      str(fields[0]),
+      "%0.2d" % fields[1],
+      "%0.2d" % fields[2]
+      ])
+
+def run():
+    _, username, passwd, hostname, databasename = sys.argv
+
+    db = psycopg2.connect(host=hostname, 
+                          port=5432, 
+                          user=username, 
+                          password=passwd, 
+                          database=databasename)
+
+    reader = csv.reader(sys.stdin, delimiter='\t')
+
+    c = db.cursor()
+    c.execute("delete from event");
+
+    for row in reader:
+       if row[0] == '':
+          continue
+       print convert_date(row[1])
+
+       row[0] = convert_date(row[0])
+       row[1] = convert_date(row[1])
+
+       args = {
+          "start_date": row[0], 
+          "end_date": row[1], 
+          "headline": row[2], 
+          "event_body": row[3], 
+          "media": row[4],
+          "media_credit": row[5], 
+          "media_caption": row[6], 
+          "timeline_event_id": row[7], 
+          "view_id": row[8], 
+          "tag": row[9]
+          }
+
+       c.execute('''insert into event (
+         start_date, end_date, headline, event_body, media,
+         media_credit, media_caption, timeline_event_id, view_id, tag)
+         values
+         (%(start_date)s, %(end_date)s, %(headline)s, 
+          %(event_body)s, %(media)s,
+          %(media_credit)s, %(media_caption)s, %(timeline_event_id)s, 
+          %(view_id)s, %(tag)s);''', args)
+
+    db.commit()
+
+if __name__ == '__main__':
+    run()
