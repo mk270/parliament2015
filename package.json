@@ -8,10 +8,10 @@
       "npm": "1.2.10"
   },
   "dependencies": {
-    "express": "",
+    "express": "latest",
     "jade": "",
-    "sqlite3": "",
-    "http": ""
+    "http": "",
+    "pg": ""
   },
   "devDependencies": {},
   "scripts": {

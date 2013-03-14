@@ -1,25 +1,27 @@
 #!/usr/bin/node
-module.exports = dbxs =  function() {
+module.exports =  function() {
+
 var http = require('http');
 var sqlite3 = require('sqlite3').verbose()
 
 var db = new sqlite3.Database('node/test.db');
 
-http.createServer(function (request, response) {
 
-  var lookupEvents = function(callback) {
-	db.serialize(function() {
-	  db.all("SELECT * from event", callback);
-	});
-  };
-
-  var continueHttpStream = function(err, rows) {
-	response.write(JSON.stringify(rows));
-	response.end();
-  };
-
-  response.writeHead(200, {'Content-Type': 'text/plain'});
-  lookupEvents(continueHttpStream);
-
-}).listen(8080);
+this.lookupEvents = function(callback) {
+    db.serialize(function() {
+        db.all("SELECT * from event", callback);
+    });
+};
+this.addEvent = function(event) {
+    db.serialize(function() {
+            db.run("INSERT INTO event(start_date, end_date, headline, event_body, media, media_credit) VALUES ($start_date, $end_date, $headline, $event_body, $media, $media_credit)", event)
+    })
+    console.log("added")
 }
+
+}
+
+
+
+
+
