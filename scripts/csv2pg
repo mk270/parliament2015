@@ -46,6 +46,11 @@ def run():
        row[0] = convert_date(row[0])
        row[1] = convert_date(row[1])
 
+       if row[7] == '':
+          row[7] = None
+       else:
+          row[7] = int(row[7])
+
        args = {
           "start_date": row[0], 
           "end_date": row[1], 
