@@ -38,7 +38,7 @@ module.exports = dbpg = function() {
               asset: {
                 media: row.media,
                 thumbnail: row.twitter_photo_url,
-                credit: row.twitter_id,
+                credit: '<a href=https://twitter.com/'+row.twitter_id+'/>',
                 caption: ''
               },
 			  provenace: row.provenance,
