@@ -91,7 +91,7 @@ oauth = new OAuth ("https://api.twitter.com/oauth/request_token",
     "nPfjyuKSswDFhiFiTlXVsg",
     "fu9RYm4ATwxckjN9Bq5a9W4YjZQbiv8CdpZmmxUE",
     "1.0",
-    "http://localhost:3000",
+    "http://localhost:3000/auth/twitter/callback",
     "HMAC-SHA1"
 )
 
@@ -135,26 +135,26 @@ app.get('/auth/twitter/callback', function(req, res, next) {
                     req.session.oauth.access_token = oauth_access_token;
                     req.session.oauth.access_token_secret = oauth_access_token_secret;
                     req.session.username = results.screen_name;
-                    // console.log(results, req.session.oauth);
+                    console.log(results, req.session.oauth);
 
                     // Save in DB
-                    redis.get('user:username:'+results.screen_name+':id', function(err, reply) {
+                    redisClient.get('user:username:'+results.screen_name+':id', function(err, reply) {
 
                         if (!reply) {
                             // User doesn't exists - Add New User
-                            redis.incr('user_id');
-                            redis.get('user_id', function(err, reply) {
+                            redisClient.incr('user_id');
+                            redisClient.get('user_id', function(err, reply) {
                                 if (err || !reply) {
                                     console.log(err, reply);
                                     return;
                                 }
 
                                 var id = parseInt(reply);
-                                redis.sadd('user:id', id);
-                                redis.hset('user:'+id, 'username', results.screen_name);
-                                redis.hset('user:'+id, 'service_user_id', results.user_id);
+                                redisClient.sadd('user:id', id);
+                                redisClient.hset('user:'+id, 'username', results.screen_name);
+                                redisClient.hset('user:'+id, 'service_user_id', results.user_id);
                                 // username index
-                                redis.set('user:username:'+results.screen_name+':id', id);
+                                redisClient.set('user:username:'+results.screen_name+':id', id);
 
                                 // Set global vars for templates
                                 app.locals.username = results.screen_name;
@@ -184,13 +184,16 @@ app.get('/auth/twitter/callback', function(req, res, next) {
 
 app.get('/auth/twitter/user', function(req, res) {
 //Send the user info
-oauth.get('https://api.twitter.com/1.1/users/show.json?screen_name='+req.session.username, req.session.oauth.access_token, req.session.oauth.access_token_secret, function(error, data, response) {
-    if (data) {
-        req.session.data = JSON.parse(data)
-        user = {screen_name: req.session.data.screen_name, profile_pic: req.session.data.profile_image_url}
-        res.send(user)
-    }
-})
+    oauth.get('https://api.twitter.com/1.1/users/show.json?screen_name='+req.session.username, req.session.oauth.access_token, req.session.oauth.access_token_secret, function(error, data, response) {
+        if (data) {
+            req.session.data = JSON.parse(data)
+            user = {screen_name: req.session.data.screen_name, profile_pic: req.session.data.profile_image_url}
+            res.send(user)
+        }
+        else{
+            console.log("No data")
+        }
+    })
 })
 
 //Start Server
