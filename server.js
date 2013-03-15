@@ -7,6 +7,8 @@ var express = require('express'),
 
 
 var app = express()
+RedisStore = require('connect-redis')(express)
+url = require('url')
 
 //Configuration
 app.configure(function() {
@@ -25,6 +27,10 @@ app.configure('development', function() {})
 //In production
 app.configure('production', function() {})
 
+
+//Redis
+redis = require('redis')
+options = {parser: 'javascript'}
 //Routes
 app.get('/', routes.index)
 

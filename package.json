@@ -11,7 +11,11 @@
     "express": "latest",
     "jade": "",
     "http": "",
-    "pg": ""
+    "pg": "0.6.15",
+    "oauth": "",
+    "url" :"",
+    "connect-redis": "",
+      ""
   },
   "devDependencies": {},
   "scripts": {

@@ -1,11 +1,14 @@
 module.exports = dbpg = function() {
 
     var pg = require('pg').native,
-        connectionString = process.env.HEROKU_POSTGRESQL_RED_URL || process.env.HEROKU_POSTGRESQL_GOLD_URL;
+        connectionString = process.env.HEROKU_POSTGRESQL_RED_URL || 'postgres://bpghvtxotnletg:URODmcaUag9GS97qV9HA8yVMz8@ec2-23-21-91-29.compute-1.amazonaws.com:5432/dedsjn8fokp8l8';
+
 
     client = new pg.Client(connectionString)
     client.connect();
-    query = client.query('CREATE TABLE event (event_id SERIAL primary key,start_date date,end_date date,headline text,event_body text,media text,media_credit text,media_caption text,timeline_event_id integer,view_id text,tag text)');
+    //query = client.query('CREATE TABLE event (event_id SERIAL primary key,start_date
+    //date,end_date date,headline text,event_body text,media text,media_credit text,media_caption
+    //text,timeline_event_id integer,view_id text,tag text)');
 
 
     this.lookupEvents = function (callback) {
