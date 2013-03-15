@@ -4,7 +4,7 @@
 function eventList($scope, $http) {
 
     $scope.getEventInfo = function() {
-
+            console.log($scope.user.screen_name)
             $scope.newEvent = {
                 start_date: $scope.newEvent.start_date,
                 end_date: $scope.newEvent.end_date,
@@ -12,8 +12,8 @@ function eventList($scope, $http) {
                 event_body: $scope.newEvent.text,
                 media: $scope.newEvent.media,
                 credit: $scope.newEvent.credit,
-                userid: $scope.user.username,
-                photo: $scope.user.screen_name
+                userid: $scope.user.screen_name,
+                photo: $scope.user.profile_pic
 
 
             }
