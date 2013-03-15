@@ -58,7 +58,7 @@
 			  var qs = pieces[1];
 			  var kvp = qs.split("=");
 			  var event_id = kvp[1];
-			  var data_source = "elections.json";
+			  var data_source = "/Data/elections.json";
 
 			  var wrappedProcessChart = function(data) {
 			    return processChart(data[event_id]);
