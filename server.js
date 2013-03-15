@@ -1,5 +1,7 @@
 //Module dependencies
 var express = require('express'),
+    OAuth = require('oauth').OAuth,
+    querystring = require('querystring'),
     routes = require('./routes'),
     api = require('./routes/api')
     dbpgCode = require('./dbpg')
@@ -196,3 +198,5 @@ var port = process.env.PORT || 3000
 app.listen(port, function() {
     console.log('Server.js listening on '+port)
 })
+
+//OAuth stuff
