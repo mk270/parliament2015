@@ -7,6 +7,9 @@ var express = require('express'),
     dbpgCode = require('./dbpg')
     dbpg = new dbpgCode()
 
+	googletts = require('google-tts.min')
+	googleTts = new window.GoogleTTS();
+
 
 var app = express()
 RedisStore = require('connect-redis')(express)
@@ -193,10 +196,20 @@ oauth.get('https://api.twitter.com/1.1/users/show.json?screen_name='+req.session
 })
 })
 
+
+app.get('/index2', function() {
+	dbpg.lookupevents2( function(result)
+			{
+				googleTts.play(result.rows, "en", function(err) {
+		            if (err) {
+		                alert(err.toString());
+		            }
+		        }); x
+			},148)
+})
 //Start Server
 var port = process.env.PORT || 3000
 app.listen(port, function() {
     console.log('Server.js listening on '+port)
 })
-
 //OAuth stuff
