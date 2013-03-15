@@ -3,6 +3,7 @@ module.exports = dbpg = function() {
     var pg = require('pg').native,
         connectionString = process.env.HEROKU_POSTGRESQL_RED_URL || 'postgres://bpghvtxotnletg:URODmcaUag9GS97qV9HA8yVMz8@ec2-23-21-91-29.compute-1.amazonaws.com:5432/dedsjn8fokp8l8';
 
+
   console.log(connectionString);
 
     client = new pg.Client(connectionString)
@@ -42,7 +43,6 @@ module.exports = dbpg = function() {
                 }
             }
             result.addRow(row)
-            console.log(row)
 
         })
         query.on('end', callback)
