@@ -1,0 +1,26 @@
+#!/bin/bash
+
+get_config () { heroku config --app $1; }
+
+
+
+get_pg_connstring () { 
+	get_config $1 | grep 'HEROKU_POSTGRESQL.*URL' | sed 's,^HEROKU_POSTGRESQL_GOLD_URL: postgres://,,' ;  
+}
+
+
+set -eu
+
+CS=$(get_pg_connstring $1)
+
+USERNAME=$(echo $CS  | awk -F: '{print $1}')
+
+
+PASSWD_AND_HOST=$(echo $CS  | awk -F: '{print $2}')
+
+PASSWD=$(echo $PASSWD_AND_HOST | awk -F@ '{print $1}')
+HOSTNAME=$(echo $PASSWD_AND_HOST | awk -F@ '{print $2}')
+
+DBNAME=$(echo $CS | awk -F/ '{print $NF}')
+
+echo "${HOSTNAME}:5432:${DBNAME}:${USERNAME}:${PASSWD}"
