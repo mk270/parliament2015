@@ -1,7 +1,8 @@
 module.exports = dbpg = function() {
 
     var pg = require('pg').native,
-        connectionString = process.env.HEROKU_POSTGRESQL_RED_URL || process.env.HEROKU_POSTGRESQL_GOLD_URL;
+        connectionString = process.env.HEROKU_POSTGRESQL_RED_URL || 'postgres://bpghvtxotnletg:URODmcaUag9GS97qV9HA8yVMz8@ec2-23-21-91-29.compute-1.amazonaws.com:5432/dedsjn8fokp8l8';
+
 
   console.log(connectionString);
 

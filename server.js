@@ -7,6 +7,8 @@ var express = require('express'),
 
 
 var app = express()
+RedisStore = require('connect-redis')(express)
+url = require('url')
 
 //Configuration
 app.configure(function() {
@@ -25,6 +27,10 @@ app.configure('development', function() {})
 //In production
 app.configure('production', function() {})
 
+
+//Redis
+redis = require('redis')
+options = {parser: 'javascript'}
 //Routes
 app.get('/', routes.index)
 
@@ -67,8 +73,6 @@ app.post('/newevent', function(req, res) {
     dbpg.addEvent(event)
 })
 
-//Redirects all others to index (HTML5 history)
-app.get('*', routes.index)
 
 //Start Server
 var port = process.env.PORT || 3000
