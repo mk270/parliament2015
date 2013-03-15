@@ -77,8 +77,7 @@ app.post('/newevent', function(req, res) {
         data.media,
         data.credit,
         data.userid,
-        data.name,
-        data.profile_pic
+        data.photo
 
     ]
     console.log(event)

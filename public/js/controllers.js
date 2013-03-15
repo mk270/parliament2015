@@ -1,7 +1,7 @@
 'use strict'
 
 
-function eventList($scope, $http, $route) {
+function eventList($scope, $http) {
 
     $scope.getEventInfo = function() {
 
@@ -13,7 +13,7 @@ function eventList($scope, $http, $route) {
                 media: $scope.newEvent.media,
                 credit: $scope.newEvent.credit,
                 userid: $scope.user.username,
-                photo: $scope.user.profile_pic
+                photo: $scope.user.screen_name
 
 
             }
@@ -27,9 +27,10 @@ function eventList($scope, $http, $route) {
         console.log("working")
     }
     $scope.user = ''
-    $http.get('auth/twitter/user').success(function (data) {
+    $http.get('/auth/twitter/user').success(function (data) {
+
         $scope.user = data;
-        console.log(data)
+        console.log($scope.user.screen_name)
     })
 }
 
