@@ -32,13 +32,13 @@ module.exports = dbpg = function() {
               startDate: newStartDate,
               endDate: newEndDate,
               headline: row.headline,
-              text: row.event_body,
+              text: row.event_body+'<a href=https://twitter.com/'+row.twitter_id+'/>'+row.twitter_id,
               tag: row.tag,
               classname: '',
               asset: {
                 media: row.media,
                 thumbnail: row.twitter_photo_url,
-                credit: '<a href=https://twitter.com/'+row.twitter_id+'/>'+row.twitter_id,
+                credit: '',
                 caption: ''
               },
 			  provenace: row.provenance,
