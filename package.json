@@ -11,6 +11,7 @@
     "express": "latest",
     "jade": "",
     "http": "",
+    "oauth": "",
     "pg": ""
   },
   "devDependencies": {},
