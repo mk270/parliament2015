@@ -37,9 +37,9 @@ module.exports = dbpg = function() {
               classname: '',
               asset: {
                 media: row.media,
-                thumbnail: '',
+                thumbnail: row.twitter_photo_url,
                 credit: row.media_credit,
-                caption: row.twitter_photo_url
+                caption: ''
               },
 			  provenace: row.provenance,
 			  twitter: {
