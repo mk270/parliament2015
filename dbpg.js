@@ -14,7 +14,7 @@ module.exports = dbpg = function() {
 
 
 
-        var query = client.query("SELECT * FROM event");
+        var query = client.query("SELECT event_id, start_date, end_date, headline, event_body, media, media_credit, media_caption, timeline_event_id, view_id, tag, provenance, twitter_id, twitter_name, twitter_photo_url FROM event");
         //Get events from db
         query.on('row', function(row, result) {
             var changeDateFormat = function(oldDate) {
@@ -29,20 +29,26 @@ module.exports = dbpg = function() {
             var newStartDate = changeDateFormat(row.start_date)
             var newEndDate = changeDateFormat(row.end_date)
             row = {
-                startDate: newStartDate,
-                endDate: newEndDate,
-                headline: row.headline,
-                text: row.event_body,
-                tag: row.tag,
-                classname: '',
-                asset: {
-                    media: row.media,
-                    thumbnail: '',
-                    credit: row.media_credit,
-                    caption: ''
-                }
-            }
-            result.addRow(row)
+              startDate: newStartDate,
+              endDate: newEndDate,
+              headline: row.headline,
+              text: row.event_body,
+              tag: row.tag,
+              classname: '',
+              asset: {
+                media: row.media,
+                thumbnail: '',
+                credit: row.media_credit,
+                caption: ''
+              },
+			  provenace: row.provenance,
+			  twitter: {
+				userid: row.twitter_id,
+				name: row.twitter_name,
+				photo: row.twitter_photo_url
+              }
+			};
+          result.addRow(row)
 
         })
         query.on('end', callback)
