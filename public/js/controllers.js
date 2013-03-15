@@ -13,6 +13,7 @@ function eventList($scope, $http, $route) {
                 media: $scope.newEvent.media,
                 credit: $scope.newEvent.credit
 
+
             }
             $http.post('/newevent', $scope.newEvent).success(function(data) {
 
@@ -23,6 +24,11 @@ function eventList($scope, $http, $route) {
     $scope.test = function () {
         console.log("working")
     }
+    $scope.user = ''
+    $http.get('auth/twitter/user').success(function (data) {
+        $scope.user = data;
+        console.log(data)
+    })
 }
 
 

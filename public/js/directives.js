@@ -12,7 +12,19 @@ app.directive('slidetitle', function() {
     }
 })
 
-
+app.directive('signin', function() {
+    return {
+        restrict: "E",
+        link: function(scope, element) {
+            setTimeout(function() {
+                if (scope.user.screen_name == 'Guest')
+                    return
+                else
+                    element.html("Signed in as "+scope.user.screen_name)
+            }, 2000)
+        }
+    }
+})
 
 app.directive('timeline', function($http) {
     var controller = function($scope) {

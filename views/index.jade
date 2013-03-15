@@ -1,7 +1,7 @@
 extends layout
 
 block body
-    div(data-role="page")
+    div(data-role="page", ng-controller="eventList")
         div.theinteractive(slidetitle)
             img(src="img/theinteractive.png", width="220px")
 
@@ -16,8 +16,11 @@ block body
 
         div#logo
             img(src="img/corner_left.png", width="200px")
-
-        a(href="/auth/twitter") Sign in with Twitter
+        br
+        br
+        br
+        signin.signin
+            a(href="/auth/twitter") Sign in with Twitter
 
 
         timeline
@@ -28,7 +31,7 @@ block body
             a(href="#")
                 img(src="img/upload_event.png", width="100px")
 
-        div.form(ng-controller="eventList")
+        div.form
             img.form_top(src="img/form_top.png", width="550px")
             h1 Add Event to Timeline
             section.field
