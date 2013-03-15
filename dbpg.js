@@ -3,9 +3,10 @@ module.exports = dbpg = function() {
     var pg = require('pg').native,
         connectionString = process.env.HEROKU_POSTGRESQL_RED_URL || process.env.HEROKU_POSTGRESQL_GOLD_URL;
 
+  console.log(connectionString);
+
     client = new pg.Client(connectionString)
     client.connect();
-    query = client.query('CREATE TABLE event (event_id SERIAL primary key,start_date date,end_date date,headline text,event_body text,media text,media_credit text,media_caption text,timeline_event_id integer,view_id text,tag text)');
 
 
     this.lookupEvents = function (callback) {
