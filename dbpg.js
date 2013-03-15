@@ -62,7 +62,7 @@ module.exports = dbpg = function() {
 
 
     this.addEvent = function (event) {
-        client.query("INSERT INTO event(start_date, end_date, headline, event_body, media, media_credit) values($1, $2, $3, $4, $5, $6)", event)
+        client.query("INSERT INTO event(start_date, end_date, headline, event_body, media, media_credit, twitter_id, twitter_name, twitter_photo_url) values($1, $2, $3, $4, $5, $6, $7, $8, $9)", event)
     }
 
 

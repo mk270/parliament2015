@@ -11,7 +11,9 @@ function eventList($scope, $http, $route) {
                 headline: $scope.newEvent.headline,
                 event_body: $scope.newEvent.text,
                 media: $scope.newEvent.media,
-                credit: $scope.newEvent.credit
+                credit: $scope.newEvent.credit,
+                userid: $scope.user.username,
+                photo: $scope.user.profile_pic
 
 
             }
