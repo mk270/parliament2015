@@ -43,7 +43,6 @@ module.exports = dbpg = function() {
                 }
             }
             result.addRow(row)
-            console.log(row)
 
         })
         query.on('end', callback)
