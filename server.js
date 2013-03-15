@@ -73,8 +73,6 @@ app.post('/newevent', function(req, res) {
     dbpg.addEvent(event)
 })
 
-//Redirects all others to index (HTML5 history)
-app.get('*', routes.index)
 
 //Start Server
 var port = process.env.PORT || 3000
