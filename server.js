@@ -93,7 +93,7 @@ oauth = new OAuth ("https://api.twitter.com/oauth/request_token",
     "nPfjyuKSswDFhiFiTlXVsg",
     "fu9RYm4ATwxckjN9Bq5a9W4YjZQbiv8CdpZmmxUE",
     "1.0",
-    "http://localhost:3000/auth/twitter/callback",
+    "http://parlydev.herokuapp.com/auth/twitter/callback",
     "HMAC-SHA1"
 )
 

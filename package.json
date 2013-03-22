@@ -10,7 +10,6 @@
   "dependencies": {
     "express": "latest",
     "jade": "",
-    "http": "",
     "pg": "",
     "oauth": "",
     "url" :"",
